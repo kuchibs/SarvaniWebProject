@@ -33,8 +33,8 @@ function getNewColors(){
 
 var easyId = document.getElementById("easyId");
 easyId.addEventListener("click", function(){
-		initialize();
 		numberOfColors = 3;
+		initialize();
 		easyId.classList.add("active");
 		hardId.classList.remove("active");
 
