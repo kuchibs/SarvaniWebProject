@@ -1,0 +1,64 @@
+body {
+	padding-top: 0px;
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.jumbotron{
+	background-color: #4195e2;
+	text-align: center;
+  	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+#RGBh1, h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    /*font-family: 'Raleway', sans-serif;*/
+
+    color: white;
+}
+
+.container {
+    /*width: 1170px;*/
+    width: 40%;
+}
+
+
+.navbar-default, .navbar-nav > li > a{
+    background-color: white;
+    border-color: white;
+    color: #4195e2;
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #4195e2;
+}
+
+.col-sm-3{
+	background-color: white;
+	/*border: 10px solid pink;*/
+	margin-top: 5%;
+	margin-left: 5%;
+
+	height: 120px;
+
+}
+
+#youwon{
+	align-self: center;
+	color:black;
+}
+
+.white {
+	color: white;
+}
+
+/*.row{
+	border: 200px solid pink;
+}
+*/
