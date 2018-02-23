@@ -1,0 +1,40 @@
+#container{
+	width:360px;
+	margin:4% auto;
+	border: 2px solid grey;
+
+}
+
+#container h1{
+	color: #666666;
+	margin: 0;
+}
+
+#container ul li{
+	color: #666666;
+	list-style: none;
+	line-height: 34px;
+
+}
+
+#container ul li:nth-child(2n){
+	background-color: #edf0f4
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+#container input[type='text']{
+	width: 100%;
+	height: 36px;
+	
+}
+
+.strike-through{
+	text-decoration: line-through;
+	color: grey;
+}
+
+
