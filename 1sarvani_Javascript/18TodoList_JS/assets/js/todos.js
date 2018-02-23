@@ -13,7 +13,13 @@ $("#container ul").on("click", "li span", function(event){
 $("#container input[type='text']").keypress( function(event){
 	console.log("Sarvani");
 	if(event.which === 13){
-		$("#container ul").append("<li><span>X</span> "+ $(this).val() + " </li>");
+		$("#container ul").append("<li><span><i class='far fa-trash-alt'></i></span> "+ $(this).val() + " </li>");
 		$(this).val("");
 	}
 });
+
+/*$("span").on("mouseOver", ".fa-trash-alt", function(event){
+	$(this).show();
+	$(this).css("width", "40px");
+});
+*/
